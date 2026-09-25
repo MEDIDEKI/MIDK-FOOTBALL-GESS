@@ -1,0 +1,6 @@
+{
+  "name": "Football Guess",
+  "description": "Jeu de devinettes footballistiques offline en 1v1, 2v2 et contre robot avec analyse intelligente des questions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

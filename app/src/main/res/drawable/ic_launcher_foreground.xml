@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer soccer ball silhouette -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,28 A26,26 0 1 0 54,80 A26,26 0 1 0 54,28 Z" />
+    
+    <!-- Central pentagon (gold/emerald tech accent) -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M54,46 L62,52 L59,62 L49,62 L46,52 Z" />
+
+    <!-- Pentagon radial lines to ball perimeter -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,46 L54,28 M62,52 L78,44 M59,62 L71,76 M49,62 L37,76 M46,52 L30,44" />
+
+    <!-- Outer perimeter stroke -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="2.5"
+        android:pathData="M54,28 A26,26 0 1 0 54,80 A26,26 0 1 0 54,28 Z" />
+
+    <!-- Glowing question mark badge in bottom-right corner of the ball -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M72,60 A14,14 0 1 0 72,88 A14,14 0 1 0 72,60 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M72,60 A14,14 0 1 0 72,88 A14,14 0 1 0 72,60 Z" />
+    <!-- Question mark glyph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70.5,67 C70.5,65.5 71.5,64.5 73,64.5 C74.5,64.5 75.5,65.5 75.5,67 C75.5,68.2 74.8,69 73.8,69.8 C73.2,70.3 72.8,70.8 72.8,72 L71.5,72 C71.5,70.2 72.2,69.5 73,68.8 C73.7,68.2 74.2,67.7 74.2,67 C74.2,66.2 73.7,65.6 73,65.6 C72.3,65.6 71.8,66.1 71.8,66.8 L70.5,67 Z M72.2,74.5 L73.6,74.5 L73.6,76 L72.2,76 Z" />
+</vector>
